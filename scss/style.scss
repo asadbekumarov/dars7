@@ -1,0 +1,61 @@
+body.light {
+  background-color: #000000;
+}
+body {
+  background-color: #ccc;
+}
+section {
+  max-width: 1600px;
+  padding: 0 16px;
+  margin: 0 auto;
+  svg {
+    margin-top: 20px;
+  }
+  .search {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 14px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 50px 0px rgba(204, 204, 204, 1);
+    border-radius: 6px;
+  }
+  .search::placeholder {
+    color: #ccc;
+    font-size: 20px;
+  }
+  .section__content {
+    text-align: center;
+    .wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      text-align: start;
+      justify-content: space-between;
+    }
+    .photo-wrapper {
+      padding: 8px;
+      background-color: #ffffff;
+      border-radius: 6px;
+      margin-bottom: 20px;
+      width: 240px;
+      box-shadow: 0px 0px 50px 0px rgba(204, 204, 204, 1);
+    }
+    .edit {
+      background-color: yellow;
+      border: none;
+      color: #000000;
+      padding: 8px;
+      border-radius: 6px;
+      margin-right: 10px;
+    }
+    .del {
+      background-color: red;
+      border: none;
+      color: #fff;
+      padding: 8px;
+      border-radius: 6px;
+    }
+  }
+}
